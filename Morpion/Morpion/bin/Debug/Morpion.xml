@@ -1,0 +1,81 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Morpion
+</name>
+</assembly>
+<members>
+<member name="T:Morpion.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:Morpion.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:Morpion.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="P:Morpion.My.Resources.Resources.profils1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Morpion.My.Resources.Resources.profils2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Morpion.My.Resources.Resources.profils3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Morpion.My.Resources.Resources.titre">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:Morpion.Morpion.Configuration">
+ <summary>
+ Configuration de la forme accueil
+ </summary>
+</member>
+<member name="F:Morpion.Morpion.ptbxI1">
+ <summary>
+ Création des images de titre
+ </summary>
+</member>
+<member name="F:Morpion.Morpion.btn1">
+ <summary>
+ Création des boutons d'images
+ </summary>
+</member>
+<member name="M:Morpion.Morpion.labelNom">
+ <summary>
+ Création dES labels demandant le nom des joueurs
+ </summary>
+</member>
+<member name="F:Morpion.Morpion.txtbox">
+ <summary>
+ Création des text ou les joueur mettrons leur pseudo
+ </summary>
+</member>
+<member name="F:Morpion.Morpion.btnValider">
+ <summary>
+ Verifie si les parametre précédent sont conforme
+ </summary>
+</member>
+<member name="M:Morpion.Morpion.Morpion_Load(System.Object,System.EventArgs)">
+ <summary>
+ Coeur du programme qui va réalisé l'affichage de tout les composants
+ </summary>
+</member>
+</members>
+</doc>

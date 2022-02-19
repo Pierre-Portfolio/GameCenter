@@ -1,0 +1,186 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Plateforme de jeu
+</name>
+</assembly>
+<members>
+<member name="T:Plateforme_de_jeu.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.add2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.background">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.biblioteque">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.de_jeux">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.notre_select">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.plateforme">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.pong">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.profils1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.profils2">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.profils3">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.quitter">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.rechercher">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.retour">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.Tictac1">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Icon semblable à (Icône).
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.titre">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.tron">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Plateforme_de_jeu.My.Resources.Resources.valider">
+<summary>
+  Recherche une ressource localisée de type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:Plateforme_de_jeu.Plateforme.Accueil">
+ <summary>
+ Configuration de la forme accueil
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Plateforme.Bouton_accueil">
+ <summary>
+ configuration des boutons de l'interface
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Plateforme.photos">
+ <summary>
+ Configuration des images de titre
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Plateforme.Accueil_Load(System.Object,System.EventArgs)">
+ <summary>
+ Appelle toute les fonction citée précédemment
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Plateforme.Quitter(System.Object,System.EventArgs)">
+ <summary>
+ Evenement du bouton quitter qui permet de quitter l'application après une confirmation
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Plateforme.Recherche(System.Object,System.EventArgs)">
+ <summary>
+ Lance la forme recherche pour rechercher un jeu
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Plateforme.LanceBiblio(System.Object,System.EventArgs)">
+ <summary>
+ Lance la forme biblioteque ou tout les jeux sont répertorié
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Plateforme.LanceMorpion">
+ <summary>
+ Lance la forme morpion qui permet de jouer au morpion
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Form1.Configuration">
+ <summary>
+ Configuration de la forme accueil
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Form1.Photosprincipale">
+ <summary>
+ Création des images de titre
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Form1.Bouton">
+ <summary>
+ Création des boutons d'images
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Form1.LabelNom">
+ <summary>
+ Création dES labels demandant le nom des joueurs
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Form1.Textbox">
+ <summary>
+ Création des text ou les joueur mettrons leur pseudo
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Form1.Valider">
+ <summary>
+ Verifie si les parametre précédent sont conforme
+ </summary>
+</member>
+<member name="M:Plateforme_de_jeu.Form1.Morpion_Load(System.Object,System.EventArgs)">
+ <summary>
+ Coeur du programme qui va réalisé l'affichage de tout les composants
+ </summary>
+</member>
+</members>
+</doc>

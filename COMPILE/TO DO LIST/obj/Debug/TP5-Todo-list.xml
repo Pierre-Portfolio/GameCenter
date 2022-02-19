@@ -1,0 +1,115 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TP5-Todo-list
+</name>
+</assembly>
+<members>
+<member name="T:TP5_Todo_list.My.Resources.Resources">
+<summary>
+  Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+</summary>
+</member>
+<member name="P:TP5_Todo_list.My.Resources.Resources.ResourceManager">
+<summary>
+  Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+</summary>
+</member>
+<member name="P:TP5_Todo_list.My.Resources.Resources.Culture">
+<summary>
+  Remplace la propriété CurrentUICulture du thread actuel pour toutes
+  les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+</summary>
+</member>
+<member name="T:TP5_Todo_list.frmPrincipale.Tache">
+ <summary>
+ Classe representant une tache de la 'Todo list'
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:TP5_Todo_list.frmPrincipale.Tache.#ctor(System.String,System.String,System.Windows.Forms.Control[])">
+ <summary>
+ Creer un nouvel objet tache
+ </summary>
+ <param name="titre">le titre de la tache</param>
+ <param name="description">la description de la tache</param>
+ <param name="controles">le tableau des controles pour l'affichage de la tache dans la liste (panel, label, bouton voir, bouton modifier)</param>
+ <remarks></remarks>
+</member>
+<member name="M:TP5_Todo_list.frmPrincipale.Tache.lieeAuControle(System.Windows.Forms.Control)">
+ <summary>
+ Determine si un controle est lie a l'affichage de cette tache dans la liste des taches
+ </summary>
+ <param name="ctrl">le controle a tester</param>
+ <returns>retourne vrai si ce controle est l'un de ceux utilises pour afficher cette tache dans la liste</returns>
+ <remarks></remarks>
+</member>
+<member name="T:TP5_Todo_list.frmPrincipale.Categorie">
+ <summary>
+ Enumeration des categories possibles pour une tache
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:TP5_Todo_list.frmPrincipale.frmPrincipale_Load(System.Object,System.EventArgs)">
+ <summary>
+ Procedure evenementielle declenchee au chargement de la form.
+ Remplissage des valeur de la liste de categorie et initialisation des controles de saisie.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:TP5_Todo_list.frmPrincipale.btnAjouter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Procedure evenementielle declenchee lors d'un click sur le bouton ajouter.
+ Cree les controles pour afficher la nouvelle tache dans la liste, et cree la tache.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:TP5_Todo_list.frmPrincipale.cocherTache(System.Object,System.EventArgs)">
+ <summary>
+ Procedure evenementielle declenchee lorsqu'une case a cocher est activee/desactivee dans la liste des taches. 
+ La tache correspondante sera marquee comme terminee. Une tache marquee comme terminee ne pourra plus etre modifiee.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:TP5_Todo_list.frmPrincipale.ClickVoirOuModifierTache(System.Object,System.EventArgs)">
+ <summary>
+ Procedure evenementielle declenchee lors d'un click sur le bouton pour voir ou modifier une tache.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:TP5_Todo_list.frmPrincipale.initialiserSaisie">
+ <summary>
+ Initialise les champs de saisie d'une nouvelle tache
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:TP5_Todo_list.frmPrincipale.retrouverTache(System.Windows.Forms.Control)">
+ <summary>
+ Retrouve la tache de la liste liee a un controle particulier de la liste des taches
+ </summary>
+ <param name="ctrl">le controle</param>
+ <returns>la tache a laquelle ce controle est lie</returns>
+ <remarks></remarks>
+</member>
+<member name="M:TP5_Todo_list.frmPrincipale.afficherTache(TP5_Todo_list.frmPrincipale.Tache,System.Boolean)">
+ <summary>
+ Creation des controles pour l'affichage complet d'une tache.
+ La tache sera affichee dans un panel dans le controle GroupBox 'grpTache', avec des controles permettant
+ son affichage ou sa modification, selon la valeur du parametre modifiable.
+ Si la tache peut etre modifiee, des bouton "valider" et "annuler" permettront d'appliquer ou non les changements.
+ La tache concernee dans la liste sera mise en evidence.
+ </summary>
+ <param name="tache">la tache a afficher</param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
